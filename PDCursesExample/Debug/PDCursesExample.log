@@ -1,0 +1,16 @@
+﻿  ClassicCashRegister.cpp
+  Client.cpp
+  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\wincontypes.h(103,1): warning C4005: "MOUSE_MOVED": ponowna definicja makra
+C:\Users\Arek\source\repos\Supermarket\packages\pdcurses_vc120.3.4.0.3\build\native\include\curses.h(153): message : zobacz poprzednią definicję „MOUSE_MOVED”
+C:\Users\Arek\source\repos\Supermarket\PDCursesExample\main.cpp(164,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\Arek\source\repos\Supermarket\PDCursesExample\main.cpp(175,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\Arek\source\repos\Supermarket\PDCursesExample\main.cpp(198,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\Users\Arek\source\repos\Supermarket\PDCursesExample\main.cpp(209,12): warning C4244: "argument": konwersja z "time_t" do "unsigned int", możliwa utrata danych
+C:\Users\Arek\source\repos\Supermarket\PDCursesExample\main.cpp(230,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  SelfCashRegister.cpp
+  Generowanie kodu...
+C:\Users\Arek\source\repos\Supermarket\PDCursesExample\main.cpp(246,20): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+LINK : warning LNK4098: domyślna biblioteka „LIBCMT” powoduje konflikt z innymi bibliotekami; użyj opcji /NODEFAULTLIB:biblioteka
+LINK : warning LNK4286: symbol „_stdscr” zdefiniowany w elemencie „pdcurses.lib(initscr.obj)” jest importowany przez element „main.obj”
+  PDCursesExample.vcxproj -> C:\Users\Arek\source\repos\Supermarket\Debug\PDCursesExample.exe

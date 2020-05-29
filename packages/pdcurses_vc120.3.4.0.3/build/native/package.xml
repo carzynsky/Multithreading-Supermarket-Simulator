@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+#################################################################
+#   GENERATED SOURCE CODE, DO NOT EDIT EXCEPT EXPERIMENTALLY    #
+#################################################################
+-->
+<ProjectSchemaDefinitions xmlns="clr-namespace:Microsoft.Build.Framework.XamlTypes;assembly=Microsoft.Build.Framework">
+  <Rule Name="pdcurses-uiextension" PageTemplate="tool" DisplayName="NuGet Dependencies" SwitchPrefix="/" Order="1">
+    <Rule.Categories>
+      <Category Name="pdcurses" DisplayName="pdcurses" />
+    </Rule.Categories>
+    <Rule.DataSource>
+      <DataSource Persistence="ProjectFile" ItemType="" />
+    </Rule.DataSource>
+      <EnumProperty Name="Linkage-pdcurses" DisplayName="Linkage" Description="How pdcurses will be linked into the output of this project" Category="pdcurses">
+        <EnumValue Name="" DisplayName="Not linked" />
+        <EnumValue Name="dynamic" DisplayName="Dynamic (DLL)" />
+        <EnumValue Name="static" DisplayName="Static (LIB)" />
+        <EnumValue Name="ltcg" DisplayName="Static using link time compile generation (LTCG)" />
+    </EnumProperty>
+  </Rule>
+</ProjectSchemaDefinitions>
